@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahoning Defense Supply LLC | Defense & Aerospace Hardware Distribution</title>
+    <meta name="description" content="Mahoning Defense Supply LLC (CAGE: 9Y8K4) is a certified Woman-Owned Small Business (WOSB) defense parts broker and distributor based in Campbell, Ohio (Mahoning County). Specializing in mil-spec fasteners, bearings, hardware, and MIL-STD compliant packaging.">
+    <meta name="keywords" content="Mahoning Defense Supply, CAGE 9Y8K4, WOSB defense contractor, DLA DIBBS, Campbell Ohio, Campbell Works, mil-spec fasteners, MIL-STD-2073, military hardware distributor">
+    
+    <!-- Open Graph / Meta -->
+    <meta property="og:title" content="Mahoning Defense Supply LLC | CAGE: 9Y8K4">
+    <meta property="og:description" content="Certified WOSB Defense Parts Broker & Wholesale Hardware Distributor based in Campbell, OH.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mahoningdefense.com">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-base: #060a14;
+            --bg-surface: #0c1322;
+            --bg-card: #111a2e;
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --border-hover: rgba(59, 130, 246, 0.4);
+            --primary: #2563eb;
+            --primary-hover: #3b82f6;
+            --primary-light: #60a5fa;
+            --accent-cyan: #38bdf8;
+            --accent-emerald: #10b981;
+            --accent-gold: #f59e0b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --text-dim: #64748b;
+            --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Container */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navigation */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(6, 10, 20, 0.92);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 16px 0;
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand-block {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .brand-name {
+            font-size: 1.25rem;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+        }
+
+        .brand-sub {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent-cyan);
+            margin-top: 3px;
+        }
+
+        .nav-pills {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .badge-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+        }
+
+        .badge-cage {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: #cbd5e1;
+            font-family: var(--font-mono);
+        }
+
+        .badge-wosb {
+            background: rgba(245, 158, 11, 0.12);
+            border: 1px solid rgba(245, 158, 11, 0.35);
+            color: #fbbf24;
+        }
+
+        .badge-hub {
+            background: rgba(16, 185, 129, 0.12);
+            border: 1px solid rgba(16, 185, 129, 0.35);
+            color: #34d399;
+        }
+
+        .nav-links {
+            display: none;
+            align-items: center;
+            gap: 24px;
+        }
+
+        @media (min-width: 900px) {
+            .nav-links {
+                display: flex;
+            }
+        }
+
+        .nav-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover {
+            color: #ffffff;
+        }
+
+        .btn-nav-rfq {
+            background: var(--primary);
+            color: #ffffff;
+            padding: 8px 18px;
+            border-radius: 8px;
+            font-size: 0.84rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.2s;
+            box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+        }
+
+        .btn-nav-rfq:hover {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0 60px;
+            position: relative;
+            background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(37, 99, 235, 0.2), transparent);
+        }
+
+        .hero-badge-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        .hero-title {
+            font-size: 2.8rem;
+            font-weight: 900;
+            line-height: 1.15;
+            letter-spacing: -0.03em;
+            margin-bottom: 20px;
+            max-width: 900px;
+        }
+
+        .hero-title span {
+            background: linear-gradient(135deg, #60a5fa 0%, #38bdf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-desc {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            max-width: 780px;
+            margin-bottom: 36px;
+            line-height: 1.65;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--primary);
+            color: #ffffff;
+            padding: 14px 28px;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.2s;
+            box-shadow: 0 4px 20px rgba(37, 99, 235, 0.45);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(37, 99, 235, 0.6);
+        }
+
+        .btn-secondary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--bg-card);
+            color: #f1f5f9;
+            border: 1px solid var(--border-subtle);
+            padding: 14px 24px;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .btn-secondary:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+            background: #16223b;
+        }
+
+        /* At A Glance Grid */
+        .glance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .glance-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glance-card:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-2px);
+        }
+
+        .glance-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--accent-cyan));
+        }
+
+        .glance-label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-dim);
+            margin-bottom: 8px;
+        }
+
+        .glance-val {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #ffffff;
+            font-family: var(--font-mono);
+            letter-spacing: -0.02em;
+            margin-bottom: 6px;
+        }
+
+        .glance-sub {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        /* Section Headings */
+        .section-header {
+            margin-bottom: 40px;
+        }
+
+        .section-tag {
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent-cyan);
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .section-desc {
+            font-size: 1rem;
+            color: var(--text-muted);
+            max-width: 650px;
+        }
+
+        /* Capabilities Grid */
+        .cap-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+        }
+
+        .cap-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            transition: all 0.2s;
+        }
+
+        .cap-card:hover {
+            border-color: rgba(255, 255, 255, 0.16);
+            background: #0f182c;
+        }
+
+        .cap-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: rgba(37, 99, 235, 0.15);
+            border: 1px solid rgba(37, 99, 235, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-light);
+            font-size: 1.5rem;
+        }
+
+        .cap-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #ffffff;
+        }
+
+        .cap-text {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .cap-bullets {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-top: 6px;
+        }
+
+        .cap-bullets li {
+            font-size: 0.82rem;
+            color: #cbd5e1;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .cap-bullets li::before {
+            content: "✓";
+            color: var(--accent-emerald);
+            font-weight: 900;
+            font-size: 0.85rem;
+        }
+
+        /* Federal Codes Tables */
+        .fed-table-wrapper {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 24px;
+        }
+
+        .fed-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .fed-table th {
+            background: rgba(255, 255, 255, 0.03);
+            color: var(--text-dim);
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 14px 20px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .fed-table td {
+            padding: 14px 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            font-size: 0.88rem;
+            color: #cbd5e1;
+        }
+
+        .fed-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .fed-code {
+            font-family: var(--font-mono);
+            font-weight: 700;
+            color: var(--primary-light);
+        }
+
+        /* RFQ Section */
+        .rfq-box {
+            background: linear-gradient(135deg, #0e172a 0%, #111d38 100%);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 20px;
+            padding: 40px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 36px;
+        }
+
+        @media (min-width: 900px) {
+            .rfq-box {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+
+        .form-input, .form-textarea {
+            width: 100%;
+            background: rgba(6, 10, 20, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 8px;
+            padding: 12px 14px;
+            color: #ffffff;
+            font-family: var(--font-sans);
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .form-input:focus, .form-textarea:focus {
+            border-color: var(--primary);
+        }
+
+        .form-textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        /* Contact Details Card */
+        .contact-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .contact-info-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .contact-info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+        }
+
+        .contact-icon-bubble {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+            color: var(--accent-cyan);
+        }
+
+        .contact-info-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            letter-spacing: 0.05em;
+        }
+
+        .contact-info-val {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .contact-info-val a {
+            color: var(--primary-light);
+            text-decoration: none;
+        }
+
+        .contact-info-val a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            border-top: 1px solid var(--border-subtle);
+            padding: 40px 0;
+            margin-top: 80px;
+            background: #04070d;
+        }
+
+        .footer-inner {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-dim);
+        }
+
+        @media (min-width: 768px) {
+            .footer-inner {
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: left;
+            }
+        }
+
+        .itar-box {
+            background: rgba(245, 158, 11, 0.06);
+            border: 1px solid rgba(245, 158, 11, 0.2);
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 0.75rem;
+            color: #cbd5e1;
+            margin-top: 20px;
+            line-height: 1.45;
+        }
+
+        @media (max-width: 600px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+            .hero-desc {
+                font-size: 1rem;
+            }
+            .rfq-box {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP NAVIGATION -->
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <!-- Brand & Emblem -->
+            <a href="#" class="brand-block">
+                <svg width="34" height="38" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 1L26 6V15C26 23 19.5 28.5 14 31C8.5 28.5 2 23 2 15V6L14 1Z" fill="url(#brandGrad)" stroke="#3b82f6" stroke-width="1.8"/>
+                    <path d="M8 12L14 17L20 12M8 17L14 22L20 17" stroke="#93c5fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <defs>
+                        <linearGradient id="brandGrad" x1="14" y1="0" x2="14" y2="31" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2563eb"/>
+                            <stop offset="1" stop-color="#0a101d"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <div class="brand-name">
+                    MAHONING DEFENSE SUPPLY
+                    <span class="brand-sub">CAMPBELL, OH • CAGE 9Y8K4</span>
+                </div>
+            </a>
+
+            <!-- Badges & Navigation -->
+            <div class="nav-pills">
+                <span class="badge-pill badge-cage">CAGE: 9Y8K4</span>
+                <span class="badge-pill badge-wosb">★ WOSB</span>
+                <span class="badge-pill badge-hub d-none d-sm-flex">CAMPBELL, OH</span>
+            </div>
+
+            <div class="nav-links">
+                <a href="#capabilities" class="nav-link">Capabilities</a>
+                <a href="#federal-data" class="nav-link">Federal Identifiers</a>
+                <a href="#quality" class="nav-link">Quality &amp; Standards</a>
+                <a href="#contact" class="btn-nav-rfq">Request RFQ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge-row">
+                <span class="badge-pill badge-wosb">★ Certified Woman-Owned Small Business (WOSB / EDWOSB)</span>
+                <span class="badge-pill badge-hub">🏭 Rust Belt Manufacturing Corridor • Campbell, OH</span>
+                <span class="badge-pill badge-cage">DLA DIBBS &amp; DoD Prime Sourcing</span>
+            </div>
+
+            <h1 class="hero-title">
+                Precision Aerospace, Naval &amp; Ground Support <span>Hardware Distribution</span>
+            </h1>
+
+            <p class="hero-desc">
+                Mahoning Defense Supply LLC is an agile defense parts broker and distributor headquartered in Campbell, Ohio (Mahoning County). We specialize in sourcing mil-spec fasteners, precision bearings, mechanical hardware, and compliant MIL-STD preservation packaging for DLA Troop Support, NAVAIR, and commercial defense prime contractors.
+            </p>
+
+            <div class="hero-cta-group">
+                <a href="#contact" class="btn-primary">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    Submit Wholesale RFQ
+                </a>
+                <a href="#federal-data" class="btn-secondary">
+                    View Capability Codes
+                </a>
+                <a href="mailto:michele@mahoningdefense.com" class="btn-secondary">
+                    Contact Managing Principal
+                </a>
+            </div>
+
+            <!-- GOVERNMENT QUICK GLANCE CARDS -->
+            <div class="glance-grid">
+                <div class="glance-card">
+                    <div class="glance-label">Commercial &amp; Gov Entity</div>
+                    <div class="glance-val">9Y8K4</div>
+                    <div class="glance-sub">Active Federal CAGE Code (SAM.gov)</div>
+                </div>
+
+                <div class="glance-card">
+                    <div class="glance-label">Socioeconomic Status</div>
+                    <div class="glance-val" style="color: #fbbf24;">WOSB</div>
+                    <div class="glance-sub">SBA Certified Woman-Owned Small Business</div>
+                </div>
+
+                <div class="glance-card">
+                    <div class="glance-label">Operating Hub</div>
+                    <div class="glance-val" style="color: #34d399;">Campbell, OH</div>
+                    <div class="glance-sub">Mahoning County • Industrial Steel Valley</div>
+                </div>
+
+                <div class="glance-card">
+                    <div class="glance-label">Payment &amp; Invoicing</div>
+                    <div class="glance-val" style="color: #38bdf8;">DFAS Fast Pay</div>
+                    <div class="glance-sub">WAWF / PIEE Ready • Net 30 Terms Accepted</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CORE COMPETENCIES -->
+    <section id="capabilities" style="padding: 70px 0;">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Core Competencies</span>
+                <h2 class="section-title">End-to-End Defense Parts Distribution</h2>
+                <p class="section-desc">Delivering flight-critical and ground-support hardware with zero defect tolerance and strict compliance flow-down.</p>
+            </div>
+
+            <div class="cap-grid">
+                <!-- Card 1 -->
+                <div class="cap-card">
+                    <div class="cap-icon">⚙️</div>
+                    <h3 class="cap-title">Mil-Spec Precision Fasteners</h3>
+                    <p class="cap-text">
+                        Direct wholesale sourcing of AN, MS, NAS, and NASM standard fasteners, socket head cap screws, structural bolts, and self-locking nuts engineered for high-vibration aerospace and naval applications.
+                    </p>
+                    <ul class="cap-bullets">
+                        <li>FSC 5305 (Screws) &amp; FSC 5306 (Bolts)</li>
+                        <li>FSC 5310 (Nuts &amp; Washers)</li>
+                        <li>DFARS 252.225-7014 Specialty Metals Compliant</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="cap-card">
+                    <div class="cap-icon">📦</div>
+                    <h3 class="cap-title">Military Packaging (MIL-STD-2073)</h3>
+                    <p class="cap-text">
+                        Complete military preservation and packaging execution. Method 10, Method 20, waterproof barrier bags (MIL-PRF-131), desiccant protection, and custom mil-box staging to ensure defense depot acceptance.
+                    </p>
+                    <ul class="cap-bullets">
+                        <li>Method 10 / 20 Preservation</li>
+                        <li>Unit, Intermediate &amp; Exterior Packs</li>
+                        <li>100% Guaranteed Depot Acceptance</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="cap-card">
+                    <div class="cap-icon">🏷️</div>
+                    <h3 class="cap-title">Barcoding &amp; MSL (MIL-STD-129R)</h3>
+                    <p class="cap-text">
+                        Automated Military Shipping Label (MSL) generation containing high-density 2D PDF417 symbols, Code 128 linear barcodes, Transportation Control Numbers (TCN), and destination DoDAAC routing.
+                    </p>
+                    <ul class="cap-bullets">
+                        <li>2D PDF417 &amp; Linear Code 128 Barcodes</li>
+                        <li>DoDAAC Routing &amp; TCN Manifesting</li>
+                        <li>WAWF Receiving Report Integration (DD Form 250)</li>
+                    </ul>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="cap-card">
+                    <div class="cap-icon">🛡️</div>
+                    <h3 class="cap-title">Quality Assurance &amp; CoC</h3>
+                    <p class="cap-text">
+                        Every single shipment includes full manufacturer Certificate of Conformance (CoC), raw material physical and chemical test reports, and unbroken chain of custody traceability.
+                    </p>
+                    <ul class="cap-bullets">
+                        <li>Manufacturer CoC with every order</li>
+                        <li>Full Lot &amp; Heat Number Traceability</li>
+                        <li>Zero Counterfeit Policy (SAE AS5553)</li>
+                    </ul>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="cap-card">
+                    <div class="cap-icon">🏭</div>
+                    <h3 class="cap-title">Rust Belt Supplier Network</h3>
+                    <p class="cap-text">
+                        Strategically centered in Campbell, Ohio, Mahoning Defense Supply leverages close manufacturing proximity to premier machining, forging, and stamping centers across Ohio, Pennsylvania, Michigan, and Indiana.
+                    </p>
+                    <ul class="cap-bullets">
+                        <li>Compressed Lead Times (Days ARO)</li>
+                        <li>Direct regional freight corridors</li>
+                        <li>Trusted ISO 9001 / AS9100 partner shops</li>
+                    </ul>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="cap-card">
+                    <div class="cap-icon">💼</div>
+                    <h3 class="cap-title">WOSB Federal Partner</h3>
+                    <p class="cap-text">
+                        As a verified Woman-Owned Small Business, Mahoning Defense Supply helps federal contracting officers and Tier-1 defense primes meet their mandatory small business subcontracting goals (FAR Part 19.15).
+                    </p>
+                    <ul class="cap-bullets">
+                        <li>FAR Part 19.15 WOSB Set-Aside Qualified</li>
+                        <li>Prompt Payment Act Compliant</li>
+                        <li>Dedicated Executive Responsiveness</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEDERAL IDENTIFIERS (NAICS & PSC) -->
+    <section id="federal-data" style="padding: 70px 0; background: var(--bg-surface);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Federal Identifiers</span>
+                <h2 class="section-title">Government Contracting Reference</h2>
+                <p class="section-desc">Key procurement codes and registration data for Federal Contracting Officers (KOs), Defense Buyers, and Prime Contractors.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
+                <!-- NAICS Codes -->
+                <div class="fed-table-wrapper">
+                    <table class="fed-table">
+                        <thead>
+                            <tr>
+                                <th>NAICS Code</th>
+                                <th>Industry Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fed-code">423840 (Primary)</td>
+                                <td>Industrial Supplies Merchant Wholesalers</td>
+                            </tr>
+                            <tr>
+                                <td class="fed-code">423710</td>
+                                <td>Hardware Merchant Wholesalers</td>
+                            </tr>
+                            <tr>
+                                <td class="fed-code">423830</td>
+                                <td>Industrial Machinery and Equipment Wholesalers</td>
+                            </tr>
+                            <tr>
+                                <td class="fed-code">332722</td>
+                                <td>Bolt, Nut, Screw, Rivet, &amp; Washer Manufacturing</td>
+                            </tr>
+                            <tr>
+                                <td class="fed-code">423860</td>
+                                <td>Transportation Equipment &amp; Supplies Wholesalers</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- FSC / PSC Codes -->
+                <div class="fed-table-wrapper">
+                    <table class="fed-table">
+                        <thead>
+                            <tr>
+                                <th>FSC / PSC</th>
+                                <th>Federal Supply Classification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fed-code">5305</td>
+                                <td>Screws (Cap, Machine, Set, Self-Tapping)</td>
+                            </tr>
+                            <tr>
+                                <td class="fed-code">5306</td>
+                                <td>Bolts (Structural, Hex, Eyebolts, Shear)</td>
+                            </tr>
+                            <tr>
+                                <td class="fed-code">5310</td>
+                                <td>Nuts and Washers (Locknuts, Flat, Belleville)</td>
+                            </tr>
+                            <tr>
+                                <td class="fed-code">3110</td>
+                                <td>Bearings, Antifriction, Unmounted</td>
+                            </tr>
+                            <tr>
+                                <td class="fed-code">4730</td>
+                                <td>Hose, Pipe, Tube, Lubrication &amp; Fittings</td>
+                            </tr>
+                            <tr>
+                                <td class="fed-code">5340</td>
+                                <td>Hardware, Commercial &amp; Military Miscellaneous</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RFQ & CONTACT SECTION -->
+    <section id="contact" style="padding: 80px 0;">
+        <div class="container">
+            <div class="rfq-box">
+                <!-- Left: Form -->
+                <div>
+                    <span class="section-tag">Direct Sourcing Desk</span>
+                    <h2 class="section-title" style="font-size: 1.75rem;">Submit Wholesale RFQ / Inquiry</h2>
+                    <p class="section-desc" style="font-size: 0.9rem; margin-bottom: 24px;">
+                        Looking for formal wholesale distributor quotes, C-Quote pricing, or supplier partnership terms? Our inside sales desk responds promptly.
+                    </p>
+
+                    <form onsubmit="handleRfqSubmit(event)">
+                        <div class="form-group">
+                            <label class="form-label">Your Name / Title</label>
+                            <input type="text" id="rfqName" class="form-input" placeholder="e.g. John Doe, Inside Sales / Buyer" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Company / Agency / Manufacturer</label>
+                            <input type="text" id="rfqCompany" class="form-input" placeholder="e.g. Parker Hannifin, Timken, DLA, OEM" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" id="rfqEmail" class="form-input" placeholder="buyer@company.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">NSN / Part Number / Sol # / Inquiry</label>
+                            <textarea id="rfqDetails" class="form-textarea" placeholder="Please list National Stock Numbers (NSN), part descriptions, quantities, or wholesale distributor account questions..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; border: none; cursor: pointer;">
+                            Submit RFQ to Michele McDonald
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Right: Company Info & Location -->
+                <div class="contact-card">
+                    <div>
+                        <span class="section-tag">Corporate Headquarters</span>
+                        <h3 style="font-size: 1.4rem; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Mahoning Defense Supply LLC</h3>
+                        <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 24px;">
+                            Founded and operated in the heart of the historic Mahoning Valley steel belt. Direct logistics access to Youngstown, Cleveland, and Pittsburgh manufacturing corridors.
+                        </p>
+
+                        <div class="contact-info-list">
+                            <div class="contact-info-item">
+                                <div class="contact-icon-bubble">📍</div>
+                                <div>
+                                    <div class="contact-info-title">Headquarters &amp; Packaging Hub</div>
+                                    <div class="contact-info-val">Campbell, OH 44405 • Mahoning County</div>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-icon-bubble">👤</div>
+                                <div>
+                                    <div class="contact-info-title">Managing Member &amp; Principal</div>
+                                    <div class="contact-info-val">Michele McDonald</div>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-icon-bubble">✉️</div>
+                                <div>
+                                    <div class="contact-info-title">Official Government &amp; RFQ Email</div>
+                                    <div class="contact-info-val">
+                                        <a href="mailto:michele@mahoningdefense.com">michele@mahoningdefense.com</a><br>
+                                        <a href="mailto:rfq@mahoningdefense.com">rfq@mahoningdefense.com</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="contact-icon-bubble">📞</div>
+                                <div>
+                                    <div class="contact-info-title">Direct Procurement Desk</div>
+                                    <div class="contact-info-val">(330) 555-0192</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ITAR / DFARS Disclaimer Box -->
+                    <div class="itar-box">
+                        <strong>🛡️ ITAR / EAR COMPLIANCE NOTICE:</strong><br>
+                        Mahoning Defense Supply LLC strictly enforces compliance with the Arms Export Control Act (22 U.S.C. 2778) and International Traffic in Arms Regulations (ITAR, 22 CFR Parts 120-130). Technical data is controlled and never released to non-US persons without authorization.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>
+                © 2026 <strong>Mahoning Defense Supply LLC</strong>. All Rights Reserved. • Campbell, OH 44405
+            </div>
+            <div style="display: flex; gap: 16px; font-family: var(--font-mono); font-size: 0.75rem;">
+                <span>CAGE: 9Y8K4</span>
+                <span>•</span>
+                <span>WOSB CERTIFIED</span>
+                <span>•</span>
+                <span>DUNS / UEI REGISTERED</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive RFQ Helper Script -->
+    <script>
+        function handleRfqSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('rfqName').value;
+            const company = document.getElementById('rfqCompany').value;
+            const email = document.getElementById('rfqEmail').value;
+            const details = document.getElementById('rfqDetails').value;
+
+            const subject = encodeURIComponent(`Formal RFQ / Inquiry from ${company} (${name})`);
+            const body = encodeURIComponent(
+                `Attention: Michele McDonald, Managing Member\n` +
+                `Mahoning Defense Supply LLC (CAGE: 9Y8K4)\n\n` +
+                `From: ${name}\n` +
+                `Company: ${company}\n` +
+                `Contact Email: ${email}\n\n` +
+                `RFQ / INQUIRY DETAILS:\n` +
+                `${details}\n\n` +
+                `---\nSubmitted via MahoningDefense.com Supplier Portal`
+            );
+
+            window.location.href = `mailto:rfq@mahoningdefense.com?cc=michele@mahoningdefense.com&subject=${subject}&body=${body}`;
+        }
+    </script>
+</body>
+</html>
